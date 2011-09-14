@@ -30,4 +30,14 @@ The hashes that return are identical to the hash that returns with
     > User.where(:email => nil).first_ash_hash
     => {:id => 123, :name => "Joe User", :email => nil}
 
+## Effects
+
+These methods are not for everyday use, but for when speed of execution
+is more important than convenience, like heavy-duty reporting or
+processing lots of existing records.
+
+In one example, looping through 36,400 User records and accessing an
+attribute used 32% less memory and performed 17% quicker using
+`all_as_hashes` over `all`.
+
 
