@@ -31,7 +31,7 @@ serialized objects will return as strings.
       {:id => 456, :name => "Jane User", :email => nil}
     ]
 
-    > User.where(:email => nil).first_ash_hash
+    > User.where(:email => nil).first_as_hash
     => {:id => 123, :name => "Joe User", :email => nil}
 
 ## Effects
