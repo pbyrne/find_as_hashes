@@ -20,5 +20,8 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "bundler"
   s.add_development_dependency "rake"
+  s.add_development_dependency "turn"
   s.add_development_dependency "shoulda"
+  s.add_development_dependency "activesupport"
+  s.add_development_dependency "sqlite3"
 end

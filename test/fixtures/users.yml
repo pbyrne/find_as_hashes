@@ -1,0 +1,6 @@
+<% (1..100).each do |n| %>
+user<%= n %>:
+  name: Example User <%= n %>
+  birthday: <%= n.weeks.ago %>
+  active: <%= n.even? %>
+<% end %>
