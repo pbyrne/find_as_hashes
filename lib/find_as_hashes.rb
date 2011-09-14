@@ -7,7 +7,7 @@ module ActiveRecord
     end
 
     def first_as_hash
-      connection.select_one(to_sql)
+      connection.select_one(limit(1).to_sql)
     end
   end
 end
