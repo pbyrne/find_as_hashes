@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = FindAsHashes::VERSION
   s.authors     = ["Patrick Byrne"]
   s.email       = ["patrick.byrne@tstmedia.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/pbyrne/find_as_hashes"
   s.summary     = %q{Provides ActiveRecord methods to return results as attribute hashes rather than instantiated ActiveRecord objects.}
   s.description = %q{Provides ActiveRecord methods to return results as attribute hashes rather than instantiated ActiveRecord objects. Useful when working with very large sets of results to improve performance.}
 
